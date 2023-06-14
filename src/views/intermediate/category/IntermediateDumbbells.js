@@ -14,7 +14,6 @@ import '@fontsource/roboto/700.css';
 
 export default function IntermediateDumbbells() {
     const [intermediateWorkout, setIntermediateWorkout] = useState([]);
-    // const [expanded, setExpanded] = useState(false);
     const [page, setPage] = useState(1);
     const itemsPerPage = 20;
 

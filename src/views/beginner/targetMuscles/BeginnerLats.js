@@ -14,7 +14,6 @@ import '@fontsource/roboto/700.css';
 
 export default function BeginnerLats() {
     const [beginnerWorkout, setBeginnerWorkout] = useState([]);
-    // const [expanded, setExpanded] = useState(false);
     const [page, setPage] = useState(1);
     const itemsPerPage = 20;
 

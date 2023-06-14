@@ -14,7 +14,6 @@ import '@fontsource/roboto/700.css';
 
 export default function AdvancedMidBack() {
     const [advancedWorkout, setAdvancedWorkout] = useState([]);
-    // const [expanded, setExpanded] = useState(false);
     const [page, setPage] = useState(1);
     const itemsPerPage = 20;
 
